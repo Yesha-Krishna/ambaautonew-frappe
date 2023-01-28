@@ -1,0 +1,196 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-18 12:42:37.323797",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "mobile_no",
+  "email_id",
+  "vehicle_number",
+  "date",
+  "how_do_you_justify_your_overall_customer_experience",
+  "our_support_teams",
+  "the_customer_service_person_was",
+  "comment",
+  "section_break_10",
+  "please_narrate_your_satisfaction_level_on_the_following_aspects",
+  "service_quality",
+  "understanding_the_issue",
+  "solving_the_issue",
+  "overall_experience",
+  "time_taken_to_solve_the_issue",
+  "section_break_17",
+  "in_between_did_you_get_a_call_from_the_us_relating_to",
+  "any_query",
+  "have_they_informed_you_any_vehicle_parts_need_to_change",
+  "have_they_discussed_escalation_price",
+  "if_any_other_please_specify",
+  "what_is_the_reason_behind_your_disappointment",
+  "other_please_specify_in_below_comment_box",
+  "any_additional_comments_or_suggestion_you_want_to_give"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Int",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email I'd"
+  },
+  {
+   "fieldname": "vehicle_number",
+   "fieldtype": "Data",
+   "label": "Vehicle Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "how_do_you_justify_your_overall_customer_experience",
+   "fieldtype": "Select",
+   "label": "How do you justify your overall customer experience?",
+   "options": "\nIt was amazing\nI'm bit satisfied\nIt was not as expected\nI'm not satisfied"
+  },
+  {
+   "fieldname": "our_support_teams",
+   "fieldtype": "Select",
+   "label": "Our support teams",
+   "options": "\nIdentified the issue within a short span of time\nHandled the situation very professionally\nProvided you with the best solution\nOthers, please specify"
+  },
+  {
+   "fieldname": "the_customer_service_person_was",
+   "fieldtype": "Select",
+   "label": "The customer service person was",
+   "options": "\nWell communicating\nResponsible\nRude behavior\nOther, please specify"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Long Text",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "please_narrate_your_satisfaction_level_on_the_following_aspects",
+   "fieldtype": "Heading",
+   "label": "Please narrate your satisfaction level on the following aspects."
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_quality",
+   "fieldtype": "Select",
+   "label": "Service quality",
+   "options": "\nSatisfied\nNeutral\nUnsatisfied"
+  },
+  {
+   "fieldname": "understanding_the_issue",
+   "fieldtype": "Select",
+   "label": "Understanding the issue",
+   "options": "\nSatisfied\nNeutral\nUnsatisfied"
+  },
+  {
+   "fieldname": "solving_the_issue",
+   "fieldtype": "Select",
+   "label": "Solving the issue",
+   "options": "\nSatisfied\nNeutral\nUnsatisfied"
+  },
+  {
+   "fieldname": "overall_experience",
+   "fieldtype": "Select",
+   "label": "Overall experience",
+   "options": "\nSatisfied\nNeutral\nUnsatisfied"
+  },
+  {
+   "fieldname": "time_taken_to_solve_the_issue",
+   "fieldtype": "Select",
+   "label": "Time taken to solve the issue",
+   "options": "\nAs expected\nLess then expected\nMore then expected"
+  },
+  {
+   "fieldname": "in_between_did_you_get_a_call_from_the_us_relating_to",
+   "fieldtype": "Heading",
+   "label": "In between did you get a call from the us relating to "
+  },
+  {
+   "fieldname": "any_query",
+   "fieldtype": "Select",
+   "label": "Any query?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "have_they_informed_you_any_vehicle_parts_need_to_change",
+   "fieldtype": "Select",
+   "label": "Have they informed you any vehicle parts need to change?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "have_they_discussed_escalation_price",
+   "fieldtype": "Select",
+   "label": "Have they discussed escalation price?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "if_any_other_please_specify",
+   "fieldtype": "Long Text",
+   "label": "If any other, please specify"
+  },
+  {
+   "fieldname": "what_is_the_reason_behind_your_disappointment",
+   "fieldtype": "Select",
+   "label": "What is the reason behind your disappointment? ",
+   "options": "\nThe service person was unable to understand the problem\nThe service person failed in fixing the issue\nUnexpected service charges"
+  },
+  {
+   "fieldname": "other_please_specify_in_below_comment_box",
+   "fieldtype": "Long Text",
+   "label": "Other, please specify (In Below comment box)"
+  },
+  {
+   "fieldname": "any_additional_comments_or_suggestion_you_want_to_give",
+   "fieldtype": "Long Text",
+   "label": "Any additional comments or suggestion you want to give?"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-18 15:16:47.722911",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Post Service Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

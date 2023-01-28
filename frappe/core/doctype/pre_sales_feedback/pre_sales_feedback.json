@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-18 18:29:48.749904",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "dob",
+  "address",
+  "gender",
+  "occupation",
+  "mobile_no",
+  "email_id",
+  "date",
+  "testride_type",
+  "which_vehicle_brand_and_model_you_are_looking_for",
+  "section_break_11",
+  "what_are_you_looking_for_in_particular",
+  "band",
+  "model",
+  "colour",
+  "why_did_you_choose_us_over_the_competetion",
+  "how_satisfied_are_you_with_productservices"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Select",
+   "label": "Occupation",
+   "options": "\nStudent\nGovernment Employee\nIt Sector\nOthers"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Int",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email I'd"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "testride_type",
+   "fieldtype": "Select",
+   "label": "How do you know about us?",
+   "options": "\nWalk In\nAdvertisement / social media\nGoogle\nExhibition\nOthers"
+  },
+  {
+   "fieldname": "which_vehicle_brand_and_model_you_are_looking_for",
+   "fieldtype": "Data",
+   "label": "Which vehicle brand and model you are looking for"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "what_are_you_looking_for_in_particular",
+   "fieldtype": "Heading",
+   "label": "What are you looking for in particular"
+  },
+  {
+   "fieldname": "band",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "colour",
+   "fieldtype": "Data",
+   "label": "colour"
+  },
+  {
+   "fieldname": "why_did_you_choose_us_over_the_competetion",
+   "fieldtype": "Long Text",
+   "label": "Why did you choose us over the competition?"
+  },
+  {
+   "fieldname": "how_satisfied_are_you_with_productservices",
+   "fieldtype": "Long Text",
+   "label": "How satisfied are you with product/services?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-28 17:08:02.569665",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Pre Sales Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

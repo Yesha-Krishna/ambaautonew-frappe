@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-18 17:53:07.117605",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "mobile_no",
+  "email_id",
+  "date",
+  "testride_type",
+  "test_ride_vehicle_model",
+  "vehicle_number",
+  "data_8",
+  "existing_vehicle_model_year",
+  "how_will_you_rate_the_overall_testride_experience",
+  "section_break_11",
+  "top_3_premium_features_which_you_liked_most",
+  "testride_route_and_distance",
+  "testride_bike_condition",
+  "sales_executive_knowledge",
+  "section_break_16",
+  "would_you_likely_to_upgradebook",
+  "any_suggestionfeedback"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Int",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email I'd"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "testride_type",
+   "fieldtype": "Select",
+   "label": "Testride Type",
+   "options": "\nWalk In\nAt Site/ Office/ Residence\nEvent"
+  },
+  {
+   "fieldname": "test_ride_vehicle_model",
+   "fieldtype": "Select",
+   "label": "Test ride vehicle model"
+  },
+  {
+   "fieldname": "vehicle_number",
+   "fieldtype": "Data",
+   "label": "Vehicle Number"
+  },
+  {
+   "fieldname": "data_8",
+   "fieldtype": "Select",
+   "label": "Branch",
+   "options": "\nGB Palya\nBTM Layout\nMadiwala\nSarjapur\nE City"
+  },
+  {
+   "fieldname": "existing_vehicle_model_year",
+   "fieldtype": "Int",
+   "label": "Existing vehicle model year"
+  },
+  {
+   "fieldname": "how_will_you_rate_the_overall_testride_experience",
+   "fieldtype": "Select",
+   "label": "How will you rate the overall testride Experience",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "top_3_premium_features_which_you_liked_most",
+   "fieldtype": "Heading",
+   "label": "Top 3 premium features which you liked most"
+  },
+  {
+   "fieldname": "testride_route_and_distance",
+   "fieldtype": "Select",
+   "label": "Testride Route and Distance",
+   "options": "\nExtremely Satisfied\nSatisfied\nNot Satisfied"
+  },
+  {
+   "fieldname": "testride_bike_condition",
+   "fieldtype": "Select",
+   "label": "Testride Bike Condition",
+   "options": "\nExtremely Satisfied\nSatisfied\nNot Satisfied"
+  },
+  {
+   "fieldname": "sales_executive_knowledge",
+   "fieldtype": "Select",
+   "label": "Sales Executive Knowledge",
+   "options": "\nExtremely Satisfied\nSatisfied\nNot Satisfied"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "would_you_likely_to_upgradebook",
+   "fieldtype": "Data",
+   "label": "Would you likely to upgrade/book"
+  },
+  {
+   "fieldname": "any_suggestionfeedback",
+   "fieldtype": "Long Text",
+   "label": "Any Suggestion/feedback"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-18 18:16:19.981297",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Test Ride Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

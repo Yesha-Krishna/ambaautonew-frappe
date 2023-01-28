@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-21 12:23:53.213400",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "date",
+  "address",
+  "gender",
+  "mobile_no",
+  "email_id",
+  "booking_no",
+  "section_break_8",
+  "overall_reception_courtesy",
+  "salespersons_helpfulness",
+  "product_demonstration_effectiveness",
+  "hp_convenience",
+  "exchange_convenience",
+  "was_test_ride_offered",
+  "availability_of_modelcolor",
+  "vehicle_operation_control_explanation_by_delivery_person",
+  "was_vehicle_delivered_on_time",
+  "overall_sales_experience",
+  "will_you_recommend_our_showroom_to_your_friendsrelatives",
+  "section_break_20",
+  "remarks",
+  "positive",
+  "negative",
+  "suggestions_for_improvement"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Int",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email I'd"
+  },
+  {
+   "fieldname": "booking_no",
+   "fieldtype": "Int",
+   "label": "Booking No"
+  },
+  {
+   "fieldname": "overall_reception_courtesy",
+   "fieldtype": "Select",
+   "label": "Overall reception courtesy",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "salespersons_helpfulness",
+   "fieldtype": "Select",
+   "label": "Salesperson's helpfulness",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "product_demonstration_effectiveness",
+   "fieldtype": "Select",
+   "label": "Product demonstration effectiveness",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "hp_convenience",
+   "fieldtype": "Select",
+   "label": "HP Convenience",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "exchange_convenience",
+   "fieldtype": "Select",
+   "label": "Exchange Convenience",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "was_test_ride_offered",
+   "fieldtype": "Select",
+   "label": "Was test ride offered",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "availability_of_modelcolor",
+   "fieldtype": "Select",
+   "label": "Availability of model/color",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "vehicle_operation_control_explanation_by_delivery_person",
+   "fieldtype": "Select",
+   "label": "vehicle operation control explanation (By delivery person)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "was_vehicle_delivered_on_time",
+   "fieldtype": "Select",
+   "label": "Was vehicle delivered on time",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "overall_sales_experience",
+   "fieldtype": "Select",
+   "label": "Overall sales experience",
+   "options": "\nPoor\nGood\nExcellent"
+  },
+  {
+   "fieldname": "will_you_recommend_our_showroom_to_your_friendsrelatives",
+   "fieldtype": "Select",
+   "label": "Will you recommend our showroom to your friends/relatives?",
+   "options": "\nDefinitely Recommend\nSomewhat Recommend\nMay Not Recommend\nDefinitely Not Recommend"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Heading",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "positive",
+   "fieldtype": "Long Text",
+   "label": "Positive"
+  },
+  {
+   "fieldname": "negative",
+   "fieldtype": "Long Text",
+   "label": "Negative"
+  },
+  {
+   "fieldname": "suggestions_for_improvement",
+   "fieldtype": "Long Text",
+   "label": "Suggestions for improvement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-21 14:30:32.551032",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Post Sales Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
